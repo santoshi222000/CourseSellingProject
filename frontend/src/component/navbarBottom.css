@@ -1,0 +1,58 @@
+.home{
+    /* border: 2px solid blue; */
+  height: 700px;
+    margin-bottom: 80px;
+    background: url('../assets/Images/ba.jpg') no-repeat  center;
+}
+
+.carousel  {
+    width: 70%;
+    height: 70%;
+    /* display: none; */
+    position: absolute;
+    top: 110px;
+    margin: auto;
+
+}
+
+.carousel-inner{
+    height: 100%;
+}
+
+.inner{
+    height: 100%;
+}
+
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img{
+    height: 100%;
+}
+
+@media (max-width: 1026px){
+   .carousel{
+    width: 90%;
+   }
+}
+
+@media (max-width: 830px){
+   .carousel{
+    width: 95%;
+   }
+}
+
+@media (max-width: 700px){
+    
+    .home{
+        height: 400px;
+    }
+  
+    .carousel {
+      display: none;
+    }
+}
+
+

@@ -1,0 +1,41 @@
+.courseContent{
+    width: 100%;
+    /* border: 2px solid black; */
+    /* margin-left: 50px; */
+    margin-top: 80px;
+    /* border: 2px solid red; */
+}
+
+.courseContent h2{
+    text-align: left;
+    color: black;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.courseContent p{
+    font-size: 0.9em;
+}
+
+.chapter{
+    color: rgb(128, 126, 126);
+    /* font-family: "Source Sans Pro", Arial, sans-serif; */
+    font-family: 'roboto';
+    /* border: 1px solid black; */
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+    
+    .courseContent h2{
+        margin-left: 20px;
+    }
+  }
+
+@media (max-width: 400px) {
+    
+    .courseContent h2{
+        margin-left: 10px;
+    }
+  }

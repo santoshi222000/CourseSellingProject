@@ -1,0 +1,170 @@
+.upperfototer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.upperfototer div{
+    height: 80%;
+    padding: 10px;
+    text-align: left;
+}
+
+.upperfototer div p{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.upperfototer div h2{
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+
+#learn{
+    width: 35%;
+}
+
+#learn p{
+    font-family: 'Roboto';
+    margin-left: 17px;
+}
+
+#learn div{
+    height: 50%;
+}
+
+.maindiv{
+    display: flex;
+    height: 100%;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.maindiv div {
+    /* width: 26%; */
+    width: 100px;
+    min-height: 100px;
+    border-radius: 50%;
+ 
+}
+
+.maindiv .first{
+    /* width: 8%; */
+   width: 100px;
+    max-height: 100px;
+    position: absolute;
+    border: 1px solid white;
+    
+}
+
+.maindiv .second{
+ 
+     margin-top: -10px;
+     margin-left: -10px;
+     border: 1px solid white;
+
+}
+
+
+
+
+
+
+#online{
+    width: 25%;
+    /* background-color: rgb(243, 166, 0); */
+    background-color: white;
+    color: black;
+}
+
+#online p{
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+
+#schedule{
+    width: 25%;
+    background-color: grey;
+}
+
+#schedule p{
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+
+@media (max-width: 1026px){
+   .upperfototer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 30px;
+    height: 700px;
+    padding-bottom: 30px;
+   }
+
+   #learn{
+    width: 95%;
+    margin-top: 30px;
+}
+
+   #learn h2{
+   text-align: left;
+}
+
+
+
+   .maindiv{
+    display: none;
+   }
+
+   
+#online{
+    width: 95%;
+    margin-bottom: 30px;
+    
+}
+
+#online h2{
+    text-align: left;
+}
+
+#schedule{
+    width: 95%;
+}
+
+#schedule h2{
+    text-align: left;
+}
+
+
+}
+
+@media (max-width: 1026px){
+    .upperfototer{
+        height: 900px;
+       }
+}
+
+
+
+@media (max-width: 334px){
+    .upperfototer{
+        height: 1000px;
+       }
+}
+
+@media (max-width: 328px){
+    .upperfototer{
+        height: 1100px;
+       }
+}
+
+

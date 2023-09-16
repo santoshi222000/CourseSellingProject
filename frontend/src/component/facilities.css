@@ -1,0 +1,28 @@
+.facility{
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.facility h2{
+   text-align: left;
+   color: black;
+   margin-bottom: 30px;
+   margin-left: 50px;
+}
+
+
+@media (max-width: 500px) {
+    
+    .facility h2{
+        margin-left: 20px;
+    }
+  }
+
+@media (max-width: 400px) {
+    
+    .facility h2{
+        margin-left: 10px;
+    }
+  }

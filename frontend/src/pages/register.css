@@ -1,0 +1,163 @@
+.register{
+    position: relative;
+    top: 200px;
+}
+
+.forms{
+    width: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;  
+    margin-top: 50px;
+
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    
+}
+
+.forms h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-input input{
+    width: 98%;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.register-btn{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.button-50 {
+    width:  100px;
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    /* margin: 0 5px 10px 0; */
+    overflow: visible;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+  .button-50:focus {
+    text-decoration: none;
+  }
+  
+  .button-50:hover {
+    text-decoration: none;
+  }
+  
+  .button-50:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .button-50:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+
+  #button10{
+    margin-right: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-50 {
+      padding: 12px 50px;
+    }
+  }
+
+    
+  @media (max-width: 538px) {
+    .forms{
+      max-width: 350px;
+    }
+
+    .form-input input{
+      margin-bottom: 10px;
+      padding: 5px 5px;
+      font-size: 12px;
+    }   
+
+    .para{
+      margin-bottom: 10px;
+      margin-top: -15px;
+      /* border: 2px solid red; */
+    }
+    
+  }
+
+  @media (max-width: 370px) {
+    .forms{
+      max-width: 300px;
+      /* margin-left: 5px;
+      margin-right: 10px; */
+    }
+
+    .form-input input{
+      margin-bottom: 10px;
+      padding: 3px 5px;
+      font-size: 12px;
+    }
+
+
+
+    
+.forms h2{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.para{
+  /* margin-top: -20px; */
+  margin-bottom: 10px;
+}
+  }
+
+  @media (max-width: 318px){
+
+    .button-50{
+      width: 80px;
+    }
+
+    .forms h2{
+      margin-bottom: 10px;
+      margin-top: -20px;
+    }
+    
+    .forms{
+     width: 250px;
+    }
+
+    .form-input input{
+      margin-bottom: 5px;
+      font-size: 12px;
+    }
+  }
+
+
